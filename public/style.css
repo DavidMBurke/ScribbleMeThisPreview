@@ -122,11 +122,14 @@ td {
 }
 
 .boxa {
+  display: flex;
   border: solid 3px black;
   flex: 0 0 100%;
   width: 50%;
   text-align: center;
+  justify-content: center;
   background-color: gainsboro;
+  padding: 5%
 }
 .boxb {
   background: lightgreen;
@@ -139,15 +142,23 @@ td {
   width: 50%;
 }
 
+#app {
+  display: flex;
+  justify-content: center;
+}
+
 .row {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  justify-content: center;
+  width: 50%;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  
 }
 
 .canvas {
