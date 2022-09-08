@@ -21,6 +21,10 @@ nav a {
   margin: 1em;
 }
 
+iframe {
+  align-items: center;
+}
+
 .audioToggle {
   cursor: pointer;
   outline: 0;
@@ -46,6 +50,10 @@ nav a {
 .audioToggle:active,
 .canvas-button:active {
   transform: scale(0.9);
+}
+
+.vid {
+  text-align: center;
 }
 
 form div {

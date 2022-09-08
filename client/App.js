@@ -18,6 +18,7 @@ class App extends React.Component {
               around the clock.
             </h3>
             <h2>Here's a preview in the meantime:</h2>
+            <div className="vid">
             <iframe
               width="560"
               height="315"
@@ -27,6 +28,7 @@ class App extends React.Component {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+            </div>
             <h3>
               github:{" "}
               <a href="https://github.com/Scribble-Me-This/2022-Scribble-Me-This">
